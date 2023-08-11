@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Square+Peg&display=swap');
+
+.section1{
+  margin-inline: -2vw;
+}
+
+.front{
+  max-width: 1900px;
+  position: relative;
+  margin: auto;
+}
+
+.hero{
+    object-fit: cover;
+      height: 150vh;
+}
+
+.lege{
+font-size: 40px;
+font-family: Square peg;
+}
+
+.exstra{
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.link-text{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 5px 80px;
+    background-color: #9478A7;
+    border-radius: 25%;
+}
+
+@media(min-width: 900px){
+
+
+
+.hero{
+  object-fit: cover;
+ width: 100%;
+background-image: url(../assets/assets/heros/forsiden.jpg);
+    background-size: cover;
+
+}
+}

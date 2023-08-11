@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Square+Peg&display=swap');
+
+.section3{
+      margin-inline: -2vw;
+}
+
+.Kunder{
+    text-align: center;
+    font-family: square peg;
+    font-size: 50px;
+    margin-bottom: -35px;
+}
+
+.udtaler{
+    text-align: center;
+    font-size: 35px;
+}
+
+.tale{
+    margin-inline: 15vw;
+}
+
+.her{
+    color: #355674;
+    background-color: #D7E6EC4D;
+
+}
+
+.hvem{
+    font-family: square peg;
+    color: #9478A7;
+}
+
+
+.kunde{
+    font-family: square peg;
+    font-size: 40px;
+}
+input[type=text], input[type=Email], textarea {
+  width: 40%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 26px;
+  resize: vertical; 
+}
+
+
+
+
+
+input{
+        background-color: transparent;
+        border-color: white;
+        border-width: 5px;
+        border-bottom-color: white;
+        border-radius: 15%;
+}
+
+textarea{
+        background-color: transparent;
+        border-color: white;
+        border-width: 5px;
+        border-radius: 15%;
+}
+
+.section4{
+    background-image: url(../assets/assets/heros/produkter.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+      margin-inline: -2vw;
+
+}
+
+
+
+
+
+footer{
+      margin-inline: -2vw;
+    color: white;
+    background-color: #355674;
+    text-align: center;
+}
+
+.service{
+    font-family: square peg;
+}
+
+.folg{
+ font-family: square peg;
+}
+
+.hip{
+    width: 50%;
+}
+
+@media(min-width: 900px){
+    .hip{
+        width: 20%;
+    }
+
+}

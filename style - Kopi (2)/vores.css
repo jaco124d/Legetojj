@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Square+Peg&display=swap');
+
+.section2{
+      margin-inline: -2vw;
+}
+.galley-container{
+        
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));
+
+  grid-gap: 25px;
+
+  max-width: 800px;
+
+  margin-inline: auto;
+}
+
+.section2{
+    background-color: #C1ADCE;
+}
+
+.product{
+    margin-bottom: -20px;
+}
+
+.et{
+    text-align: center;
+    font-size: 30px;
+    font-family: Square peg;
+}
+
+.vores{
+    text-align: center;
+    font-size: 35px;
+}
+
+.more{
+    background-color: #9478A7;
+}
+
+.product{
+border-radius: 15%;
+}
